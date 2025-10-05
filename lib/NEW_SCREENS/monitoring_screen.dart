@@ -16,7 +16,7 @@ import 'package:permission_handler/permission_handler.dart';
 import 'package:firebase_storage/firebase_storage.dart';
 
 import 'package:flutter/material.dart';
-import 'package:charts_flutter/flutter.dart' as charts;
+// charts_flutter removed; not used in this file
 
 import 'package:flutter/material.dart';
 
