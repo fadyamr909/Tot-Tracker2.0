@@ -1,16 +1,17 @@
-# tottracker
+# TotTracker
 
-A new Flutter project.
+Flutter app. To run locally in VS Code:
 
-## Getting Started
+1. Install Flutter 3.x SDK and Android Studio tooling.
+2. Open this folder in VS Code.
+3. Run these commands:
+   - `flutter pub get`
+   - `flutter run` (select device: Android emulator, iOS simulator, or Chrome)
 
-This project is a starting point for a Flutter application.
+Firebase
+- Add your own `android/app/google-services.json` if you want Firebase to work.
+- Or run `flutterfire configure` to generate `lib/firebase_options.dart`.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Android config
+- Android Gradle plugin 7.4.2, Gradle 7.5, Kotlin 1.7.10
+- compileSdk 33, targetSdk 33, minSdk 21

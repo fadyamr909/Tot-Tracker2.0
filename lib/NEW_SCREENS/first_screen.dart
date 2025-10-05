@@ -52,7 +52,7 @@ class _FirstScreenState extends State<FirstScreen> {
                 child: Container(
                     width: 500, // set the desired width
                     height: 500,
-                    child: Image.asset('./assets/drawables/tottracker.png')),
+                    child: Image.asset('assets/drawables/tottracker.png')),
               ),
               AnimatedSwitcher(
                 duration: Duration(milliseconds: 500),
